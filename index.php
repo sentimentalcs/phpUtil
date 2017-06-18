@@ -8,5 +8,6 @@
 
     include __DIR__.'/vendor/autoload.php';
 
+    //this is the test for packagist
     echo \phpUtil\Curl::http_get();
     echo \phpUtil\test\Test::test();
