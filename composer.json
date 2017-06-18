@@ -1,0 +1,20 @@
+{
+    "name": "farewell/php-util",
+    "description": "php class for regular use",
+    "type": "library",
+    "authors": [
+        {
+            "name": "farewell",
+            "email": "310256023@qq.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "phpUtil\\": "src/",
+            "phpUtil\\test\\":"src/test"
+        }
+     }
+}
